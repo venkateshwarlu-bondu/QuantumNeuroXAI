@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/1190271986.svg)](https://doi.org/10.5281/zenodo.19200441)
+[![DOI](https://zenodo.org/badge/1190271986.svg)](https://doi.org/10.5281/zenodo.19200650)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
 
@@ -8,7 +8,7 @@
 
 GitHub repository: https://github.com/venkateshwarlu-bondu/QuantumNeuroXAI
 
-Permanent archived release (Zenodo DOI): [https://doi.org/10.5281/zenodo.19200441](https://doi.org/10.5281/zenodo.19200650)
+Permanent archived release (Zenodo DOI): https://doi.org/10.5281/zenodo.19200650
 # QuantumNeuroXAI
 
 ### An AI-Driven Hybrid Quantum Machine Learning Framework for EEG-Based Neurological Disorder Detection with Multi-Level Explainability
