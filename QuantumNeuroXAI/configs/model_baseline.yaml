@@ -1,0 +1,17 @@
+name: baseline
+input_channels: 1
+cnn:
+  conv_channels: [16, 32, 64]
+  kernel_size: 3
+  dropout: 0.2
+rnn:
+  type: gru
+  hidden_size: 128
+  num_layers: 1
+  bidirectional: true
+  dropout: 0.1
+attention:
+  hidden_size: 128
+head:
+  binary_out_dim: 1
+  multiclass_out_dim: 4

@@ -1,0 +1,30 @@
+seed: 42
+device: auto
+num_workers: 0
+output_dir: outputs
+log_dir: outputs/logs
+checkpoint_dir: outputs/checkpoints
+metrics_dir: outputs/metrics
+plots_dir: outputs/plots
+xai_dir: outputs/xai
+
+train:
+  batch_size: 16
+  epochs: 15
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  patience: 5
+  scheduler_factor: 0.5
+  scheduler_patience: 2
+  mixed_precision: false
+
+splits:
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  subject_wise: true
+
+defaults:
+  target_sfreq: 256
+  target_freq_bins: 64
+  target_time_bins: 64

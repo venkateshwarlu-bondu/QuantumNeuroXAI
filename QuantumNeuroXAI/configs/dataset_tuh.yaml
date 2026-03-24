@@ -1,0 +1,25 @@
+dataset_name: tuh
+raw_dir: data/raw/tuh_eeg
+manifest_csv: data/manifests/tuh_manifest.csv
+processed_manifest_csv: data/manifests/tuh_processed_manifest.csv
+processed_dir: data/processed/tuh
+
+read:
+  target_sfreq: 256
+  prefer_mne: true
+
+preprocessing:
+  bandpass_low: 0.5
+  bandpass_high: 40.0
+  notch_hz: 50.0
+  artifact_z_thresh: 6.0
+  normalization: zscore
+  window_sec: 4.0
+  stride_sec: 2.0
+  stft_nperseg: 128
+  stft_noverlap: 64
+  target_freq_bins: 64
+  target_time_bins: 64
+
+task:
+  mode: binary
