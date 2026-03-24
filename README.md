@@ -294,13 +294,10 @@ python run.py --config configs/global.yaml
 ---
 
 ## Citation
-
+If you are using this repository or the corresponding research work, please cite the following paper:
 ```
 @article{QuantumNeuroXAI2026,
-title={QuantumNeuroXAI: A Hybrid Quantum Machine Learning Framework for EEG-Based Neurological Disorder Detection},
-author={Author Name},
-journal={Journal Name},
-year={2026}
+title={QuantumNeuroXAI: A Hybrid Quantum Machine Learning Framework for EEG-Based Neurological 
 }
 ```
 
