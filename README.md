@@ -1,3 +1,5 @@
+
+[![DOI](https://zenodo.org/badge/1190271986.svg)](https://doi.org/10.5281/zenodo.19200441)
 # QuantumNeuroXAI
 
 ### An AI-Driven Hybrid Quantum Machine Learning Framework for EEG-Based Neurological Disorder Detection with Multi-Level Explainability
