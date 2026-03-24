@@ -310,9 +310,3 @@ See the LICENSE file for details.
 
 ---
 
-## Contact
-
-For research collaboration:
-
-* Author Name
-* Email: [your-email@example.com](mailto:your-email@example.com)
