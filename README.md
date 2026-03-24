@@ -110,7 +110,7 @@ QuantumNeuroXAI/
 Clone the repository:
 
 ```
-git clone https://github.com/yourusername/QuantumNeuroXAI.git
+git clone https://github.com/venkateshwarlu-bondu/QuantumNeuroXAI.git
 cd QuantumNeuroXAI
 ```
 
